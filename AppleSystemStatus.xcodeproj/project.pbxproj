@@ -3,23 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1463FA1C25A09D70008973D0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA1B25A09D70008973D0 /* Service.swift */; };
+		1463FA1F25A11835008973D0 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA1E25A11835008973D0 /* Services.swift */; };
+		1463FA2225A11CFF008973D0 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA2125A11CFF008973D0 /* EventsView.swift */; };
+		1463FA2625A1D98A008973D0 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA2525A1D98A008973D0 /* Event.swift */; };
+		1463FA3725A1E27C008973D0 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA3625A1E27C008973D0 /* Events.swift */; };
+		1463FA3B25A1E3D5008973D0 /* StatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA3A25A1E3D5008973D0 /* StatusService.swift */; };
+		1463FA3F25A2341E008973D0 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA3E25A2341E008973D0 /* EventView.swift */; };
+		1463FA4225A269A6008973D0 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA4125A269A6008973D0 /* AboutView.swift */; };
+		14BF8B8A25A4C6870027EBD9 /* Sentry in Frameworks */ = {isa = PBXBuildFile; productRef = 14BF8B8925A4C6870027EBD9 /* Sentry */; };
 		14DD24842598A04900B1E605 /* AppleSystemStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DD24832598A04900B1E605 /* AppleSystemStatusApp.swift */; };
 		14DD24862598A04900B1E605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DD24852598A04900B1E605 /* ContentView.swift */; };
 		14DD24882598A04A00B1E605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DD24872598A04A00B1E605 /* Assets.xcassets */; };
 		14DD248B2598A04A00B1E605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DD248A2598A04A00B1E605 /* Preview Assets.xcassets */; };
+		14DD24972598A6DF00B1E605 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14DD24992598A6DF00B1E605 /* Localizable.strings */; };
+		14E23C5F259FBBA2007D25B2 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E23C5E259FBBA2007D25B2 /* Countries.swift */; };
+		14F205A92598DC4500EB5533 /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F205A82598DC4500EB5533 /* ServicesView.swift */; };
+		14F205AC2598DC7600EB5533 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F205AB2598DC7600EB5533 /* SettingsView.swift */; };
+		14F205AF2598DFA800EB5533 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F205AE2598DFA800EB5533 /* Country.swift */; };
+		14F205B22598E09900EB5533 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F205B12598E09900EB5533 /* ApiClient.swift */; };
+		14F205B52598E48A00EB5533 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F205B42598E48A00EB5533 /* Preferences.swift */; };
+		14F205B8259C9FE600EB5533 /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F205B7259C9FE600EB5533 /* CountriesView.swift */; };
+		14F205C0259CEF6100EB5533 /* CountryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F205BF259CEF6100EB5533 /* CountryStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14DD24802598A04900B1E605 /* AppleSystemStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSystemStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1463FA1B25A09D70008973D0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		1463FA1E25A11835008973D0 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		1463FA2125A11CFF008973D0 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		1463FA2525A1D98A008973D0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		1463FA3625A1E27C008973D0 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		1463FA3A25A1E3D5008973D0 /* StatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusService.swift; sourceTree = "<group>"; };
+		1463FA3E25A2341E008973D0 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		1463FA4125A269A6008973D0 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		14DD24802598A04900B1E605 /* Apple System Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple System Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DD24832598A04900B1E605 /* AppleSystemStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSystemStatusApp.swift; sourceTree = "<group>"; };
 		14DD24852598A04900B1E605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14DD24872598A04A00B1E605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14DD248A2598A04A00B1E605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14DD248C2598A04A00B1E605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DD24982598A6DF00B1E605 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		14DD249B2598A76300B1E605 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		14E23C5E259FBBA2007D25B2 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		14F205A82598DC4500EB5533 /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		14F205AB2598DC7600EB5533 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		14F205AE2598DFA800EB5533 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		14F205B12598E09900EB5533 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		14F205B42598E48A00EB5533 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		14F205B7259C9FE600EB5533 /* CountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesView.swift; sourceTree = "<group>"; };
+		14F205BF259CEF6100EB5533 /* CountryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +63,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BF8B8A25A4C6870027EBD9 /* Sentry in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1463FA3925A1E3C6008973D0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1463FA3A25A1E3D5008973D0 /* StatusService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		14DD24772598A04900B1E605 = {
 			isa = PBXGroup;
 			children = (
@@ -44,7 +89,7 @@
 		14DD24812598A04900B1E605 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14DD24802598A04900B1E605 /* AppleSystemStatus.app */,
+				14DD24802598A04900B1E605 /* Apple System Status.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +97,17 @@
 		14DD24822598A04900B1E605 /* AppleSystemStatus */ = {
 			isa = PBXGroup;
 			children = (
+				14F205C6259E15E300EB5533 /* Models */,
+				1463FA3925A1E3C6008973D0 /* Services */,
+				14E23C5D259FBB7A007D25B2 /* Observables */,
+				14F205BE259CEF4D00EB5533 /* Stores */,
+				14F205BB259CC83000EB5533 /* Views */,
 				14DD24832598A04900B1E605 /* AppleSystemStatusApp.swift */,
-				14DD24852598A04900B1E605 /* ContentView.swift */,
 				14DD24872598A04A00B1E605 /* Assets.xcassets */,
 				14DD248C2598A04A00B1E605 /* Info.plist */,
 				14DD24892598A04A00B1E605 /* Preview Content */,
+				14DD24992598A6DF00B1E605 /* Localizable.strings */,
+				14F205B12598E09900EB5533 /* ApiClient.swift */,
 			);
 			path = AppleSystemStatus;
 			sourceTree = "<group>";
@@ -69,12 +120,55 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		14E23C5D259FBB7A007D25B2 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				14F205B42598E48A00EB5533 /* Preferences.swift */,
+				14E23C5E259FBBA2007D25B2 /* Countries.swift */,
+				1463FA1E25A11835008973D0 /* Services.swift */,
+				1463FA3625A1E27C008973D0 /* Events.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		14F205BB259CC83000EB5533 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14DD24852598A04900B1E605 /* ContentView.swift */,
+				14F205B7259C9FE600EB5533 /* CountriesView.swift */,
+				14F205A82598DC4500EB5533 /* ServicesView.swift */,
+				14F205AB2598DC7600EB5533 /* SettingsView.swift */,
+				1463FA2125A11CFF008973D0 /* EventsView.swift */,
+				1463FA3E25A2341E008973D0 /* EventView.swift */,
+				1463FA4125A269A6008973D0 /* AboutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14F205BE259CEF4D00EB5533 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				14F205BF259CEF6100EB5533 /* CountryStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		14F205C6259E15E300EB5533 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14F205AE2598DFA800EB5533 /* Country.swift */,
+				1463FA1B25A09D70008973D0 /* Service.swift */,
+				1463FA2525A1D98A008973D0 /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14DD247F2598A04900B1E605 /* AppleSystemStatus */ = {
+		14DD247F2598A04900B1E605 /* Apple System Status */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14DD248F2598A04A00B1E605 /* Build configuration list for PBXNativeTarget "AppleSystemStatus" */;
+			buildConfigurationList = 14DD248F2598A04A00B1E605 /* Build configuration list for PBXNativeTarget "Apple System Status" */;
 			buildPhases = (
 				14DD247C2598A04900B1E605 /* Sources */,
 				14DD247D2598A04900B1E605 /* Frameworks */,
@@ -84,9 +178,12 @@
 			);
 			dependencies = (
 			);
-			name = AppleSystemStatus;
+			name = "Apple System Status";
+			packageProductDependencies = (
+				14BF8B8925A4C6870027EBD9 /* Sentry */,
+			);
 			productName = AppleSystemStatus;
-			productReference = 14DD24802598A04900B1E605 /* AppleSystemStatus.app */;
+			productReference = 14DD24802598A04900B1E605 /* Apple System Status.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,19 +201,23 @@
 				};
 			};
 			buildConfigurationList = 14DD247B2598A04900B1E605 /* Build configuration list for PBXProject "AppleSystemStatus" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 14DD24772598A04900B1E605;
+			packageReferences = (
+				14BF8B8825A4C6870027EBD9 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
+			);
 			productRefGroup = 14DD24812598A04900B1E605 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14DD247F2598A04900B1E605 /* AppleSystemStatus */,
+				14DD247F2598A04900B1E605 /* Apple System Status */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14DD248B2598A04A00B1E605 /* Preview Assets.xcassets in Resources */,
+				14DD24972598A6DF00B1E605 /* Localizable.strings in Resources */,
 				14DD24882598A04A00B1E605 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,18 +240,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1463FA2225A11CFF008973D0 /* EventsView.swift in Sources */,
+				14F205B22598E09900EB5533 /* ApiClient.swift in Sources */,
+				1463FA1F25A11835008973D0 /* Services.swift in Sources */,
+				1463FA3F25A2341E008973D0 /* EventView.swift in Sources */,
+				1463FA4225A269A6008973D0 /* AboutView.swift in Sources */,
+				1463FA3B25A1E3D5008973D0 /* StatusService.swift in Sources */,
+				14F205AF2598DFA800EB5533 /* Country.swift in Sources */,
 				14DD24862598A04900B1E605 /* ContentView.swift in Sources */,
+				14F205AC2598DC7600EB5533 /* SettingsView.swift in Sources */,
 				14DD24842598A04900B1E605 /* AppleSystemStatusApp.swift in Sources */,
+				14F205B8259C9FE600EB5533 /* CountriesView.swift in Sources */,
+				14F205B52598E48A00EB5533 /* Preferences.swift in Sources */,
+				1463FA3725A1E27C008973D0 /* Events.swift in Sources */,
+				14F205C0259CEF6100EB5533 /* CountryStore.swift in Sources */,
+				1463FA1C25A09D70008973D0 /* Service.swift in Sources */,
+				14E23C5F259FBBA2007D25B2 /* Countries.swift in Sources */,
+				1463FA2625A1D98A008973D0 /* Event.swift in Sources */,
+				14F205A92598DC4500EB5533 /* ServicesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14DD24992598A6DF00B1E605 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DD24982598A6DF00B1E605 /* en */,
+				14DD249B2598A76300B1E605 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		14DD248D2598A04A00B1E605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_CODE = "5cUp37ikddO525JWygFiPq05arB2n4eC/7pM9wm54c0gTiT9TyGL4g==";
+				API_HOST = "https://mdmsua.azurewebsites.net";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -211,6 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				API_CODE = "5cUp37ikddO525JWygFiPq05arB2n4eC/7pM9wm54c0gTiT9TyGL4g==";
+				API_HOST = "https://ass.mdmsft.net";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -265,11 +401,13 @@
 		14DD24902598A04A00B1E605 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_HOST = "https://aaplss.mdmsft.net";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleSystemStatus/Preview Content\"";
-				DEVELOPMENT_TEAM = 3945VD4KL9;
+				DEVELOPMENT_TEAM = 56468X2PU5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AppleSystemStatus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -277,21 +415,24 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.mdmsft.AppleSystemStatus;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mdmsft.aaplss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SENTRY_DSN = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		14DD24912598A04A00B1E605 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_HOST = "https://aaplss.mdmsft.net";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleSystemStatus/Preview Content\"";
-				DEVELOPMENT_TEAM = 3945VD4KL9;
+				DEVELOPMENT_TEAM = 56468X2PU5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AppleSystemStatus/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,10 +440,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.mdmsft.AppleSystemStatus;
+				PRODUCT_BUNDLE_IDENTIFIER = net.mdmsft.aaplss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SENTRY_DSN = "https://a7e4886af55f4a03962229b688bcb59f@o43688.ingest.sentry.io/5580329";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -318,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14DD248F2598A04A00B1E605 /* Build configuration list for PBXNativeTarget "AppleSystemStatus" */ = {
+		14DD248F2598A04A00B1E605 /* Build configuration list for PBXNativeTarget "Apple System Status" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14DD24902598A04A00B1E605 /* Debug */,
@@ -328,6 +470,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14BF8B8825A4C6870027EBD9 /* XCRemoteSwiftPackageReference "sentry-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getsentry/sentry-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.12;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14BF8B8925A4C6870027EBD9 /* Sentry */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14BF8B8825A4C6870027EBD9 /* XCRemoteSwiftPackageReference "sentry-cocoa" */;
+			productName = Sentry;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 14DD24782598A04900B1E605 /* Project object */;
 }
