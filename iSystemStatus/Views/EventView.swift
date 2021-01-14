@@ -1,10 +1,3 @@
-//
-//  EventView.swift
-//  AppleSystemStatus
-//
-//  Created by Dmytro Morozov on 03.01.21.
-//
-
 import SwiftUI
 
 struct EventView: View {

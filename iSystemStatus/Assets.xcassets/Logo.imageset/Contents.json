@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-ok-129.png",
+      "filename" : "icons8-dienstleistungen-100.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-ok-257.png",
+      "filename" : "icons8-dienstleistungen-150.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-ok-384.png",
+      "filename" : "icons8-dienstleistungen-200.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

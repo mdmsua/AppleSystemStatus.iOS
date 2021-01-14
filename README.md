@@ -1,5 +1,5 @@
-# Apple System Status
-## iOS client application for AppleSystemStatus project
+# iSystemStatus
+## iOS application for System Status service from Apple Support
 ### Intro
 Ever wondered why Siri cannot process your commands, or iCloud Drive doesn't synchronize your files, even though your Internet connection seems to work? Probably, one or more Apple services have issues or even experience outage? Now there's an app exactly for that!
 ### Basics

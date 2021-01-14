@@ -2,7 +2,7 @@ import SwiftUI
 import Sentry
 
 @main
-struct AppleSystemStatusApp: App {
+struct MainApp: App {
     init() {
         guard let sentryDSN = Bundle.main.object(forInfoDictionaryKey: "Sentry DSN") as? String, sentryDSN.count > 0 else {
             return

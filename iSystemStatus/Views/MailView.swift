@@ -38,7 +38,7 @@ struct MailView: UIViewControllerRepresentable {
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0"
         let vc = MFMailComposeViewController()
         vc.mailComposeDelegate = context.coordinator
-        vc.setSubject("Apple System Status iOS v\(version)")
+        vc.setSubject("System Status iOS v\(version)")
         vc.setToRecipients(["aaplss@mdmsft.net"])
         return vc
     }

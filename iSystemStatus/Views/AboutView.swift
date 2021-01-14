@@ -10,7 +10,7 @@ struct AboutView: View {
         VStack {
             Section {
                 Image("Logo").resizable().scaledToFit().frame(width: 128, height: 128)
-                Text("Apple System Status")
+                Text("iSystemStatus")
                     .font(.largeTitle)
                 Text("1.0")
                     .font(.title)
