@@ -2,7 +2,7 @@ import Foundation
 import Sentry
 
 class CountryStore {
-    fileprivate static let fallbackCountry = Country(id: 1033, name: "United States", language: "English")
+    fileprivate static let fallbackCountry = Country(id: "en-US", name: "United States", language: "English")
     
     fileprivate static let countriesFile = "Countries"
     
@@ -68,7 +68,12 @@ class CountryStore {
     
     static func getFileUrl(for name: String) -> URL? {
         do {
-            let fileUrl = try FileManager.default.url(for: .cachesDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("\(name).plist")
+            let directoryUrl = try FileManager.default.url(for: .cachesDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("1.0")
+            var isDirectory: ObjCBool = true
+            if !FileManager.default.fileExists(atPath: directoryUrl.path, isDirectory: &isDirectory) {
+                try FileManager.default.createDirectory(atPath: directoryUrl.path, withIntermediateDirectories: false, attributes: nil)
+            }
+            let fileUrl = directoryUrl.appendingPathComponent("\(name).plist")
             if !FileManager.default.fileExists(atPath: fileUrl.path) {
                 FileManager.default.createFile(atPath: fileUrl.path, contents: nil, attributes: nil)
             }

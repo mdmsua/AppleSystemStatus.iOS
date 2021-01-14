@@ -1,7 +1,7 @@
 import Foundation
 
 struct Event: Identifiable, Decodable {
-    var id: Int64 { get { return epochStartDate } }
+    var id: Int64 { epochStartDate }
     let epochStartDate: Int64
     let epochEndDate: Int64?
     let startDate: String

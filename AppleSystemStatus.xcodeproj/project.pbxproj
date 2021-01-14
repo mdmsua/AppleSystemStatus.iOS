@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1442119B25AFAF7600D6FFE7 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1442119A25AFAF7600D6FFE7 /* MailView.swift */; };
 		1463FA1C25A09D70008973D0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA1B25A09D70008973D0 /* Service.swift */; };
 		1463FA1F25A11835008973D0 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA1E25A11835008973D0 /* Services.swift */; };
 		1463FA2225A11CFF008973D0 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1463FA2125A11CFF008973D0 /* EventsView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1442119A25AFAF7600D6FFE7 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		1463FA1B25A09D70008973D0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		1463FA1E25A11835008973D0 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		1463FA2125A11CFF008973D0 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				1463FA2125A11CFF008973D0 /* EventsView.swift */,
 				1463FA3E25A2341E008973D0 /* EventView.swift */,
 				1463FA4125A269A6008973D0 /* AboutView.swift */,
+				1442119A25AFAF7600D6FFE7 /* MailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				14E23C5F259FBBA2007D25B2 /* Countries.swift in Sources */,
 				1463FA2625A1D98A008973D0 /* Event.swift in Sources */,
 				14F205A92598DC4500EB5533 /* ServicesView.swift in Sources */,
+				1442119B25AFAF7600D6FFE7 /* MailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleSystemStatus/Preview Content\"";
 				DEVELOPMENT_TEAM = 56468X2PU5;
 				ENABLE_PREVIEWS = YES;
@@ -430,7 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"AppleSystemStatus/Preview Content\"";
 				DEVELOPMENT_TEAM = 56468X2PU5;
 				ENABLE_PREVIEWS = YES;

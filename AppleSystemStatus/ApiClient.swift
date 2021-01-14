@@ -34,7 +34,7 @@ class ApiClient {
         
     }
     
-    static func getServices(for country: Int, completion: @escaping ([Service]?, Error?) -> ()) {
+    static func getServices(for country: String, completion: @escaping ([Service]?, Error?) -> ()) {
         let url = URL(string: "\(host)/countries/\(country)/services?code=\(code)")
         load(url, completion)
     }

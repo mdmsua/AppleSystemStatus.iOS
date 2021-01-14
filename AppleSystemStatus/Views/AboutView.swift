@@ -1,7 +1,10 @@
 import SwiftUI
+import MessageUI
 
 struct AboutView: View {
     @Environment(\.colorScheme) var colorScheme: ColorScheme
+    @State var result: Result<MFMailComposeResult, Error>? = nil
+    @State var isShowingMailView = false
     
     var body: some View {
         VStack {
@@ -14,7 +17,15 @@ struct AboutView: View {
             }
             Spacer()
             Section {
-                Text("Dmytro Morozov")
+                Text("Dmytro Morozov").font(.headline)
+                if MFMailComposeViewController.canSendMail() {
+                    Button(action: {
+                        self.isShowingMailView.toggle()
+                    }, label: {
+                        Image(systemName: "envelope")
+                        Text("contact")
+                    }).padding()
+                }
                 HStack {
                     Spacer()
                     Link(destination: URL(string: "https://twitter.com/mdmsua")!, label: {
@@ -37,18 +48,9 @@ struct AboutView: View {
                         Text("mdmsua")
                     })
                     Spacer()
-                }.padding()
-                HStack {
-                    Link("Sources", destination: URL(string: "https://github.com/mdmsua/AppleSystemStatus.iOS")!)
-                    Spacer()
-                    Link("Issues", destination: URL(string: "https://github.com/mdmsua/AppleSystemStatus.iOS/issues")!)
-                    Spacer()
-                    Link("Discussion", destination: URL(string: "https://github.com/mdmsua/AppleSystemStatus.iOS/discussions/2")!)
-                    Spacer()
-                    Link("Ideas", destination: URL(string: "https://github.com/mdmsua/AppleSystemStatus.iOS/discussions/5")!)
-                    Spacer()
-                    Link("Q&A", destination: URL(string: "https://github.com/mdmsua/AppleSystemStatus.iOS/discussions/6")!)
                 }
+            }.sheet(isPresented: $isShowingMailView) {
+                MailView(isShowing: self.$isShowingMailView, result: self.$result)
             }
             Spacer()
             Section {
